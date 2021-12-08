@@ -1,7 +1,7 @@
 from dao.model.genre import Genre
 
 
-class GenreDAO:
+class DirectorDAO:
     def __init__(self, session):
         self.session = session
 

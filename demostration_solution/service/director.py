@@ -21,7 +21,7 @@ class DirectorService:
         director = self.get_one(director_d["id"])
         if "name" in director_d:
             director.name = director_d.get("name")
-        self.dao.update(director)
+        return self.dao.update(director)
 
     def delete(self, rid):
         self.dao.delete(rid)
