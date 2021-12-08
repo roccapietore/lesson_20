@@ -1,4 +1,4 @@
-from setup_db import db
+from setupdb import db
 from marshmallow import Schema, fields
 
 
